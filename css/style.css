@@ -37,11 +37,10 @@ header nav{
 }
 
 .top__inner{
-    max-width:1195px;
+    max-width:1175px;
     width:100%;
     margin:0 0 0 auto;
     position: relative;
-
 }
 
 .top__inner__text{
@@ -49,10 +48,12 @@ header nav{
     position: absolute;
     left:0;
     z-index: 10;
+    padding-left:30px;
 }
 
 .top__inner__text h2{
     font-size:68px;
+    font-size:4.5vw;
     font-family: 'Indie Flower', cursive;
     color:#c44282;
     padding-top:75px;
@@ -64,9 +65,9 @@ header nav{
     letter-spacing: 1px;
 }
 
-.top__inner__text h4{
+.top__inner__text h3{
     color:#c44282;
-    font-size:25px;
+    font-size:1.7vw;
     padding-top:48px;
     letter-spacing: -2px;
 }
@@ -76,12 +77,13 @@ header nav{
     letter-spacing: 0.5px;
     line-height:27px;
     padding-top:10px;
+    font-size:1.1vw;
 }
 
 .top img{
     position: absolute;
     right:0;
-    width:900px;
+    width:60vw;
 }
 
 
@@ -167,7 +169,7 @@ header nav{
     /* margin-top:10px; */
     background-color:#f5f5f5;
     margin-top:-15px;
-    padding-bottom:90px;
+    padding: 0 30px 90px;
 }
 
 .about__title{
