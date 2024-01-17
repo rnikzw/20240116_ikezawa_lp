@@ -1,5 +1,5 @@
 body{
-    width: 1500px;
+    max-width: 1500px;
 }
 
 header{
@@ -15,7 +15,7 @@ header img{
 }
 
 header nav{
-    margin: 19px 85px 0 auto;
+    margin: 19px 45px 0 auto;
 }
 
 .header__link{
@@ -472,14 +472,16 @@ header nav{
 
 .link{
     display: flex;
-    position:relative;
     margin-top:80px;
-    width:100%;
+    width: 100%;
+}
+
+.link a{
+    position:relative;
 }
 
 .link img{
     width:50vw;
-    height:310px;
 }
 
 .link h4{
@@ -488,13 +490,13 @@ header nav{
     color:#fff;
     font-size:30px;
 }
+.link__recruit h4 {
 
-.link__recruit h4{
-    left:315px;
+    left: 315px;
 }
 
-.link__interview h4{
-    left:1000px;
+.link__interview h4 {
+    left: 250px;
 }
 
 .inquiry{
